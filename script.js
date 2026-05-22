@@ -9,5 +9,6 @@ function dango2() {
 function nomeEx() {
 	let nome = document.getElementById('inputN').value
 
+	document.getElementById('nomeaqui').innerHTML = nome
 	alert('Bem-vindo(a) ' + nome + '!')
 }
